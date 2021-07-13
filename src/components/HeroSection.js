@@ -17,7 +17,7 @@ function HeroSection() {
             />
             
             
-            <h1>Adventure awaits push</h1>
+            
             <p>What are you waiting for? Brob?</p>
             <div className='hero-btns'>
                 <Button className ='btns' buttonStyle='btn--outline'

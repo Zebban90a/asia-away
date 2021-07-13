@@ -12,15 +12,19 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) =>
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <Link to= '/sign-up' className='btn-mobile'>
+
+        <a 
+            href= 'https://skyscanner.com'
+            target='_blank'
+            rel='noopener'
+            class='btn-mobile'
+        >
             <button className= {`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}
             >
                 {children}
             </button>
-
-           
-        </Link>
+        </a>
     )
 };
