@@ -14,6 +14,7 @@ function HeroSection() {
             height= "100vh"
             width ="100%"
             muted = "true"
+            
             />
             
             
