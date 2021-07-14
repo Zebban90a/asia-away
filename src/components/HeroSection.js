@@ -13,8 +13,7 @@ function HeroSection() {
             playing= "true"
             height= "100vh"
             width ="100%"
-            muted = "true"
-            
+            volume = "1"
             />
             
             
